@@ -7,4 +7,5 @@ export default defineConfig({
   site: "https://denstuk.github.io",
   base: "denstuk.github.io",
   integrations: [mdx(), sitemap(), tailwind()],
+  output: "static"
 });
